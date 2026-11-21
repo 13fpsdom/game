@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "donutplus",
+  "version": "${version}",
+  "name": "DonutPlus",
+  "description": "Client-side utility hub for DonutSMP: money tracker, auctions, price watch, HUD, pay guard and more.",
+  "authors": ["YOUR NAME"],
+  "contact": { "sources": "https://github.com/YOUR_USER/donutplus", "issues": "https://github.com/YOUR_USER/donutplus/issues" },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.donutplus.DonutPlusClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
